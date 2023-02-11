@@ -2,6 +2,10 @@
 module.exports = {
   content: ["*"],
   theme: {
+    screens:{
+      'lg':'1080px',
+      'max-w-screen-lg':'1080px'
+    },
     extend: {
       fontFamily:{
         mullish : ["Mulish ", "sans-serif"] , 
