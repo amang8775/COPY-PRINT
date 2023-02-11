@@ -1,127 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>CopyPrint</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="main.css" />
-  <title>CopyPrint</title>
-</head>
-
-<body>
-  <div class="w-[100vw] m-0 p-0 h-[100vh] overflow-y-auto overflow-x-hidden bg-bgBlue lg:pt-[50px] ">
-    <div class="lg:w-[80%] w-full max-w-[1260px]  bg-white h-fit mx-auto rounded-xl shadow-black shadow-2xl">
-
-      <!-- navbar -->
-      <nav
-        class="w-full flex justify-between items-center  p-[10px] px-[60px] lg:flex-row flex-col sticky -top-[50px] rounded-lg border-b-2 bg-white opacity-90"
-        id="nav">
-        <div class="flex hover:scale-105 transition-all duration-200 relative items-end w-[205px]">
-          <img src="images/LOGO.png" alt="" class="w-[60px]" />
-          <div class="text-[35px] font-bold text-[#000000] left-[53px] absolute tracking-wider">
-            <span class="font-bold text-[#2593D2]">opy</span>Print
-          </div>
-        </div>
-        <div
-          class="flex justify-center lg:gap-10 gap-3 text-[18px] py-2 text-[#7C7C7C] font-semibold lg:flex-row flex-col">
-          <div class="hover:text-lightBlue transition-all duration-200">
-            <a href="#"> Prices</a>
-          </div>
-          <div class="hover:text-lightBlue transition-all duration-200">
-            <a href="#">About Us</a>
-          </div>
-          <div class="hover:text-lightBlue transition-all duration-200">
-            <a href="#">Contact Us</a>
-          </div>
-        </div>
-        <div class="flex lg:gap-5 gap-3 text-[#F7F5EB] text-[18px] font-semibold lg:flex-row flex-col ">
-          <button class="px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200">
-            Login
-          </button>
-          <button class="px-5 py-2 rounded-md bg-[#020548] hover:scale-105 transition-all duration-200">
-            Sign Up
-          </button>
-        </div>
-      </nav>
-      <!-- hero section  -->
-      <section class="my-10">
-        <div class="flex flex-row justify-around items-center p-10">
-          <div class="left w-[600px]">
-            <h1 class="text-4xl font-bold tracking-wide leading-[50px]">
-              Unleash Your Inner Organizer with Flawless Copies
-            </h1>
-            <p class="text-textGrey my-4 text-xl">
-              Don't let cluttered documents bring you down. Our photocopying
-              center is here to turn those messy stacks into neat and tidy
-              copies.
-            </p>
-            <div class="text-white text-[20px] font-semibold mt-10 gap-5 flex">
-              <button class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200">
-                Our Services
-              </button>
-              <button class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200">
-                Material
-              </button>
+  <body>
+    <div
+      class="w-[100vw] m-0 p-0 h-[100vh] overflow-y-auto overflow-x-hidden bg-bgBlue lg:pt-[50px]"
+    >
+      <div
+        class="lg:w-[80%] w-full max-w-[1260px] bg-white h-fit mx-auto rounded-xl shadow-black shadow-2xl"
+      >
+        <!-- navbar -->
+        <nav
+          class="w-full flex justify-between items-center p-[10px] px-[60px] lg:flex-row flex-col sticky -top-[50px] rounded-lg border-b-2 bg-white opacity-90"
+          id="nav"
+        >
+          <div
+            class="flex hover:scale-105 transition-all duration-200 relative items-end w-[205px]"
+          >
+            <img src="images/LOGO.png" alt="" class="w-[60px]" />
+            <div
+              class="text-[35px] font-bold text-[#000000] left-[53px] absolute tracking-wider"
+            >
+              <span class="font-bold text-[#2593D2]">opy</span>Print
             </div>
           </div>
-          <div class="right">
-            <img class="w-[400px] inline-block" src="./images/herosection.png" alt="" srcset="" />
+          <div
+            class="flex justify-center lg:gap-10 gap-3 text-[18px] py-2 text-[#7C7C7C] font-semibold lg:flex-row flex-col"
+          >
+            <div class="hover:text-lightBlue transition-all duration-200">
+              <a href="#"> Prices</a>
+            </div>
+            <div class="hover:text-lightBlue transition-all duration-200">
+              <a href="#">About Us</a>
+            </div>
+            <div class="hover:text-lightBlue transition-all duration-200">
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+          <div
+            class="flex lg:gap-5 gap-3 text-[#F7F5EB] text-[18px] font-semibold lg:flex-row flex-col"
+          >
+            <button
+              class="px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
+            >
+              Login
+            </button>
+            <button
+              class="px-5 py-2 rounded-md bg-[#020548] hover:scale-105 transition-all duration-200"
+            >
+              Sign Up
+            </button>
+          </div>
+        </nav>
+        <!-- hero section  -->
+        <section class="my-10">
+          <div class="flex flex-row justify-around items-center p-10">
+            <div class="left w-[600px]">
+              <h1 class="text-4xl font-bold tracking-wide leading-[50px]">
+                Unleash Your Inner Organizer with Flawless Copies
+              </h1>
+              <p class="text-textGrey my-4 text-xl">
+                Don't let cluttered documents bring you down. Our photocopying
+                center is here to turn those messy stacks into neat and tidy
+                copies.
+              </p>
+              <div
+                class="text-white text-[20px] font-semibold mt-10 gap-5 flex"
+              >
+                <button
+                  class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
+                >
+                  Our Services
+                </button>
+                <button
+                  class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
+                >
+                  Material
+                </button>
+              </div>
+            </div>
+            <div class="right">
+              <img
+                class="w-[400px] inline-block"
+                src="./images/herosection.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </section>
+        <!--highlights-->
+        <div
+          class="bg-btnBlue w-full py-8 text-white flex text-[25px] font-semibold px-[60px] items-end"
+        >
+          <div class="items-center flex flex-col border-r-2 flex-grow h-[77px]">
+            <img src="images/colorprint.png" alt="" class="w-[40px]" />
+            <div>Color Print</div>
+          </div>
+          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px]">
+            <div class="flex-grow"></div>
+            <div class="text-[#7C7C7C] text-[16px]">
+              A0, A1, A2, A3, A4, A5, A6
+            </div>
+            <div class="">All Sizes</div>
           </div>
 
+          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px]">
+            <div class="text-[#7C7C7C] text-md">3000+</div>
+            <div class="">Happy Customers</div>
+          </div>
+          <div class="flex flex-col items-center flex-grow h-[77px]">
+            <div class="text-[#7C7C7C] text-md">5+</div>
+            <div class="">Locations</div>
+          </div>
         </div>
-      </section>
-      <!--highlights-->
-      <div class="bg-btnBlue w-full py-8 text-white flex text-[25px] font-semibold px-[60px] items-end ">
-        <div class="items-center flex flex-col border-r-2 flex-grow h-[77px]"><img src="images/colorprint.png" alt=""
-            class="w-[40px] ">
-          <div>Color Print</div>
-        </div>
-        <div class="flex flex-col items-center border-r-2 flex-grow h-[77px]">
-          <div class="flex-grow"></div>
-          <div class="text-[#7C7C7C] text-[16px]">A0, A1, A2, A3, A4, A5, A6</div>
-          <div class="">All Sizes</div>
-        </div>
-
-        <div class="flex flex-col items-center border-r-2 flex-grow h-[77px] ">
-          <div class="text-[#7C7C7C] text-md ">3000+ </div>
-          <div class="">Happy Customers</div>
-        </div>
-        <div class="flex flex-col items-center flex-grow  h-[77px]">
-          <div class="text-[#7C7C7C] text-md">5+</div>
-          <div class="">Locations</div>
-        </div>
-      </div>
-      <!--CustomerReviews-->
-      <div class=" w-full">
-        <div class="text-4xl font-bold text-center mt-10">Customer Reviews</div>
-        <div class="flex flex-wrap p-10 justify-center gap-5 font-semibold text-md">
-          <div class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col shadow-lg "><div class="flex-grow">I recently used this photocopy website for some important documents
-            and I was blown away by the quality of the copies. The process was smooth and easy, and I received my copies
-            in a timely manner. I would highly recommend this website to anyone looking for high-quality photocopies.</div>
-            <div class="font-bold text-black pt-2 text-right"><div class="text-yellow-400 text-left"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span></div> Emily Rodriguez</div>
+        <!--CustomerReviews-->
+        <div class="w-full">
+          <div class="text-4xl font-bold text-center mt-10">
+            Customer Reviews
           </div>
-          <div class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col shadow-lg"><div class="flex-grow">I've used this photocopy website several times now and I've always been impressed with their service. The website is user-friendly and it's easy to upload and order copies. The prices are also very reasonable and the quality of the copies is top-notch.</div>
-            <div class="font-bold text-black pt-2 text-right "><div class="text-yellow-400 text-left"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span></div> Alexander Lee</div>
+          <div
+            class="flex flex-wrap p-10 justify-center gap-5 font-semibold text-md"
+          >
+            <div
+              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-100"
+            >
+              <div class="mx-auto my-2">
+                <img
+                  class="object-cover rounded-full w-[80px] h-[80px] inline-block"
+                  src="./images/u1.avif"
+                  alt=""
+                />
+              </div>
+              <div class="flex-grow">
+                I recently used this photocopy website for some important
+                documents and I was blown away by the quality of the copies. The
+                process was smooth and easy, and I received my copies in a
+                timely manner. I would highly recommend this website to anyone
+                looking for high-quality photocopies.
+              </div>
+              <div class="font-bold text-black pt-2 text-right">
+                <div class="text-yellow-400 text-left">
+                  <span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span>
+                </div>
+                Emily Rodriguez
+              </div>
+            </div>
+            <div
+              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-100"
+            >
+              <div class="mx-auto my-2">
+                <img
+                  class="object-cover rounded-full w-[80px] h-[80px] inline-block"
+                  src="./images/u2.avif"
+                  alt=""
+                />
+              </div>
+              <div class="flex-grow">
+                I've used this photocopy website several times now and I've
+                always been impressed with their service. The website is
+                user-friendly and it's easy to upload and order copies. The
+                prices are also very reasonable and the quality of the copies is
+                top-notch.
+              </div>
+              <div class="font-bold text-black pt-2 text-right">
+                <div class="text-yellow-400 text-left">
+                  <span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span>
+                </div>
+                Alexander Lee
+              </div>
+            </div>
+            <div
+              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-100"
+            >
+              <div class="mx-auto my-2">
+                <img
+                  class="object-cover rounded-full w-[80px] h-[80px] inline-block"
+                  src="./images/u3.avif"
+                  alt=""
+                />
+              </div>
+              <div class="flex-grow">
+                I was a bit hesitant to use an online photocopy service, but I'm
+                glad I gave this website a chance. The process was simple and
+                efficient, and the copies turned out just as I hoped. I will
+                definitely be using this website again in the future.
+              </div>
+              <div class="font-bold text-black pt-2 text-right">
+                <div class="text-yellow-400 text-left">
+                  <span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span>
+                </div>
+                Isabella Thompson
+              </div>
+            </div>
+            <div
+              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-100"
+            >
+              <div class="mx-auto my-2">
+                <img
+                  class="object-cover rounded-full w-[80px] h-[80px] inline-block"
+                  src="./images/u4.avif"
+                  alt=""
+                />
+              </div>
+              <div class="flex-grow">
+                I had a large project and needed to make a lot of photocopies,
+                so I decided to try out this website. I was pleasantly surprised
+                by the speed and quality of the service. The copies were
+                delivered in a timely manner and the quality was excellent. I
+                would definitely recommend this website to anyone in need of
+                photocopying services.
+              </div>
+              <div class="font-bold text-black pt-2 text-right">
+                <div class="text-yellow-400 text-left">
+                  <span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span>
+                </div>
+                William Chen
+              </div>
+            </div>
+            <div
+              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-xl hover:scale-105 transition-all duration-100"
+            >
+              <div class="mx-auto my-2">
+                <img
+                  class="object-cover rounded-full w-[80px] h-[80px] inline-block"
+                  src="./images/u5.avif"
+                  alt=""
+                />
+              </div>
+              <div class="flex-grow">
+                I needed to make some copies of a very old and delicate
+                document, and I was afraid of damaging it by trying to make
+                photocopies myself. I found this website and was impressed by
+                the care they took with my document. The copies were perfect and
+                I was very pleased with the service. I would definitely use this
+                website again in the future.
+              </div>
+              <div class="font-bold text-black pt-2 text-right">
+                <div class="text-yellow-400 text-left">
+                  <span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span>
+                </div>
+                Sophia Patel
+              </div>
+            </div>
+            <div
+              class="p-8 rounded-md w-[30%] border text-gray-500 flex-col flex hover:shadow-xl hover:scale-105 transition-all duration-100"
+            >
+              <div class="mx-auto my-2">
+                <img
+                  class="object-cover rounded-full w-[80px] h-[80px] inline-block"
+                  src="./images/u6.avif"
+                  alt=""
+                />
+              </div>
+              <div class="flex-grow">
+                I was very impressed with the range of printing options
+                available on this website. I was able to customize my prints
+                exactly how I wanted them, and the finished product was even
+                better than I had hoped for. Ptocopy website saved the day! The
+                prints were delivered to me quickly. I will be using this
+                service again for sure.
+              </div>
+              <div class="font-bold text-black pt-2 text-right">
+                <div class="text-yellow-400 text-left">
+                  <span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span
+                  ><span class="fa fa-star checked"></span>
+                </div>
+                Ethan Patel
+              </div>
+            </div>
           </div>
-          <div class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col shadow-lg"><div class="flex-grow">I was a bit hesitant to use an online photocopy service, but I'm glad I gave this website a chance. The process was simple and efficient, and the copies turned out just as I hoped. I will definitely be using this website again in the future.</div>
-            <div class="font-bold text-black pt-2 text-right"><div class="text-yellow-400 text-left"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span></div> Isabella Thompson</div>
-          </div>
-          <div class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col shadow-lg"><div class="flex-grow">I had a large project and needed to make a lot of photocopies, so I decided to try out this website. I was pleasantly surprised by the speed and quality of the service. The copies were delivered in a timely manner and the quality was excellent. I would definitely recommend this website to anyone in need of photocopying services.</div>
-            <div class="font-bold text-black pt-2 text-right"><div class="text-yellow-400 text-left"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span></div> William Chen</div>
-          </div>
-          <div class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col shadow-lg"><div class="flex-grow">I needed to make some copies of a very old and delicate document, and I was afraid of damaging it by trying to make photocopies myself. I found this website and was impressed by the care they took with my document. The copies were perfect and I was very pleased with the service. I would definitely use this website again in the future.</div>
-            <div class="font-bold text-black pt-2 text-right"><div class="text-yellow-400 text-left"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span></div>Sophia Patel</div>
-          </div>
-          <div class="p-8 rounded-md w-[30%] border text-gray-500 flex-col flex shadow-lg"><div class="flex-grow">I was very impressed with the range of printing options available on this website. I was able to customize my prints exactly how I wanted them, and the finished product was even better than I had hoped for. Ptocopy website saved the day! The prints were delivered to me quickly. I will be using this service again for sure.</div>
-            <div class="font-bold text-black pt-2 text-right"><div class="text-yellow-400 text-left"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked"></span></div>Ethan Patel</div>
-          </div>
-       
         </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
