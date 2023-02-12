@@ -21,7 +21,7 @@
       >
         <!-- navbar -->
         <nav
-          class="w-full flex justify-between items-center p-[10px] px-[60px] lg:flex-row flex-col sticky -top-[50px] rounded-lg border-b-2 bg-white opacity-90 backdrop-blur-sm z-10  "
+          class="w-full flex justify-between items-center p-[10px] px-[60px] lg:flex-row flex-col sticky lg:-top-[50px] rounded-lg border-b-2 bg-white opacity-90 backdrop-blur-sm z-10 -top-[180px] "
           id="nav"
         >
           <div
@@ -35,28 +35,28 @@
             </div>
           </div>
           <div
-            class="flex justify-center lg:gap-10 gap-3 text-[18px] py-2 text-[#7C7C7C] font-semibold lg:flex-row flex-col"
+            class="flex justify-center sticky lg:gap-10 gap-3 text-[18px] py-2 text-[#7C7C7C] font-semibold lg:flex-row flex-col"
           >
             <div class="hover:text-lightBlue transition-all duration-200">
               <a href="#"> Prices</a>
             </div>
             <div class="hover:text-lightBlue transition-all duration-200">
-              <a href="#">About Us</a>
+              <a href="#aboutus">About Us</a>
             </div>
             <div class="hover:text-lightBlue transition-all duration-200">
               <a href="#">Contact Us</a>
             </div>
           </div>
           <div
-            class="flex lg:gap-5 gap-3 text-[#F7F5EB] text-[18px] font-semibold lg:flex-row flex-col"
+            class="flex lg:gap-5 gap-3 text-[#F7F5EB] text-[18px] font-semibold"
           >
             <button
-              class="px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
+              class="max-lg:w-[40vw] px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
             >
               Login
             </button>
             <button
-              class="px-5 py-2 rounded-md bg-[#020548] hover:scale-105 transition-all duration-200"
+              class="max-lg:w-[40vw] px-5 py-2 rounded-md bg-[#020548] hover:scale-105 transition-all duration-200"
             >
               Sign Up
             </button>
@@ -64,8 +64,8 @@
         </nav>
         <!-- hero section  -->
         <section class="my-10">
-          <div class="flex flex-row justify-around items-center p-10">
-            <div class="left w-[600px]">
+          <div class="flex lg:flex-row  flex-col-reverse justify-around items-center p-10 px-[60px]">
+            <div class="left lg:w-[600px]">
               <h1 class="text-4xl font-bold tracking-wide leading-[50px]">
                 Unleash Your Inner Organizer with Flawless Copies
               </h1>
@@ -101,29 +101,36 @@
         </section>
         <!--highlights-->
         <div
-          class="bg-btnBlue w-full py-8 text-white flex text-[25px] font-semibold px-[60px] items-end"
+          class="bg-btnBlue w-full py-8 text-white flex lg:text-[25px] font-semibold lg:px-[60px] items-end px-[20px]"
         >
-          <div class="items-center flex flex-col border-r-2 flex-grow h-[77px]">
-            <img src="images/colorprint.png" alt="" class="w-[40px]" />
-            <div>Color Print</div>
-          </div>
-          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px]">
+          <div class="items-center flex flex-col border-r-2 flex-grow h-[77px] px-1">
             <div class="flex-grow"></div>
-            <div class="text-[#7C7C7C] text-[16px]">
+            <img src="images/colorprint.png" alt="" class="w-[40px] max-lg:w-[30px]" />
+            <div class="text-center">Color Print</div>
+          </div>
+          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px] justify-center px-1">
+            <div class="flex-grow"></div>
+            <div class="text-[#7C7C7C] text-[16px] hidden lg:block">
               A0, A1, A2, A3, A4, A5, A6
             </div>
-            <div class="">All Sizes</div>
+            <div class="text-center">All Sizes</div>
           </div>
 
-          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px]">
-            <div class="text-[#7C7C7C] text-md">3000+</div>
-            <div class="">Happy Customers</div>
+          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px] px-1">
+            <div class="flex-grow"></div>
+            <div class="text-[#7C7C7C] text-md text-center">3000+</div>
+            <div class="text-center"><div class="max-lg:hidden"></div>Customers</div>
           </div>
-          <div class="flex flex-col items-center flex-grow h-[77px]">
-            <div class="text-[#7C7C7C] text-md">5+</div>
-            <div class="">Locations</div>
+          <div class="flex flex-col items-center flex-grow h-[77px] px-1">
+            <div class="flex-grow"></div>
+            <div class="text-[#7C7C7C] text-md text-center">5+</div>
+            <div class="text-center">Locations</div>
           </div>
         </div>
+        <!--about us-->
+        <div class=" w-full flex flex-wrap" id="#aboutus" >
+        <img src="images/u1.avif" alt="" class="rounded-3xl w-[20vw] h-[30vw] pl-[60px]">
+      </div>
         <!--CustomerReviews-->
         <div class="w-full">
           <div class="text-4xl font-bold text-center mt-10">
