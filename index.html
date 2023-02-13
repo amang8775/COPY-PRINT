@@ -21,7 +21,7 @@
       >
         <!-- navbar -->
         <nav
-          class="w-full flex justify-between items-center p-[10px] px-[60px] lg:flex-row flex-col sticky -top-[50px] rounded-lg border-b-2 bg-white opacity-90 backdrop-blur-sm z-10  "
+          class="w-full flex justify-between items-center p-[10px] px-[60px] lg:flex-row flex-col sticky lg:-top-[50px] rounded-lg border-b-2 bg-white opacity-90 backdrop-blur-sm z-10 -top-[180px] "
           id="nav"
         >
           <div
@@ -35,28 +35,28 @@
             </div>
           </div>
           <div
-            class="flex justify-center lg:gap-10 gap-3 text-[18px] py-2 text-[#7C7C7C] font-semibold lg:flex-row flex-col"
+            class="flex justify-center sticky lg:gap-10 gap-3 text-[18px] py-2 text-[#7C7C7C] font-semibold lg:flex-row flex-col"
           >
             <div class="hover:text-lightBlue transition-all duration-200">
               <a href="#"> Prices</a>
             </div>
             <div class="hover:text-lightBlue transition-all duration-200">
-              <a href="#">About Us</a>
+              <a href="#aboutus">About Us</a>
             </div>
             <div class="hover:text-lightBlue transition-all duration-200">
               <a href="#">Contact Us</a>
             </div>
           </div>
           <div
-            class="flex lg:gap-5 gap-3 text-[#F7F5EB] text-[18px] font-semibold lg:flex-row flex-col"
+            class="flex lg:gap-5 gap-3 text-[#F7F5EB] text-[18px] font-semibold"
           >
             <button
-              class="px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
+              class="max-lg:w-[40vw] px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
             >
               Login
             </button>
             <button
-              class="px-5 py-2 rounded-md bg-[#020548] hover:scale-105 transition-all duration-200"
+              class="max-lg:w-[40vw] px-5 py-2 rounded-md bg-[#020548] hover:scale-105 transition-all duration-200"
             >
               Sign Up
             </button>
@@ -64,26 +64,26 @@
         </nav>
         <!-- hero section  -->
         <section class="my-10">
-          <div class="flex flex-row justify-around items-center p-10">
-            <div class="left w-[600px]">
-              <h1 class="text-4xl font-bold tracking-wide leading-[50px]">
+          <div class="flex lg:flex-row  flex-col-reverse justify-around items-center p-10 px-[60px] max-lg:px-[30px]">
+            <div class="left lg:w-[600px] max-lg:w-full">
+              <h1 class="text-4xl max-lg:text-2xl font-bold tracking-wide leading-[50px]">
                 Unleash Your Inner Organizer with Flawless Copies
               </h1>
-              <p class="text-textGrey my-4 text-xl">
+              <p class="text-textGrey my-4 max-lg:text-sm text-xl">
                 Don't let cluttered documents bring you down. Our photocopying
                 center is here to turn those messy stacks into neat and tidy
                 copies.
               </p>
               <div
-                class="text-white text-[20px] font-semibold mt-10 gap-5 flex"
+                class="text-white text-[20px] max-lg:text-[14px] font-semibold mt-10 gap-5 flex flex-wrap"
               >
                 <button
-                  class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
+                  class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200 max-lg:w-fit"
                 >
                   Our Services
                 </button>
                 <button
-                  class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200"
+                  class="px-5 py-2 w-[200px] rounded-md bg-btnBlue hover:scale-105 transition-all duration-200 max-lg:w-fit"
                 >
                   Material
                 </button>
@@ -101,39 +101,55 @@
         </section>
         <!--highlights-->
         <div
-          class="bg-btnBlue w-full py-8 text-white flex text-[25px] font-semibold px-[60px] items-end"
+          class="bg-btnBlue w-full py-8 text-white flex lg:text-[25px] font-semibold lg:px-[60px] items-end px-[20px]"
         >
-          <div class="items-center flex flex-col border-r-2 flex-grow h-[77px]">
-            <img src="images/colorprint.png" alt="" class="w-[40px]" />
-            <div>Color Print</div>
-          </div>
-          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px]">
+          <div class="items-center flex flex-col border-r-2 flex-grow h-[77px] px-1">
             <div class="flex-grow"></div>
-            <div class="text-[#7C7C7C] text-[16px]">
+            <img src="images/colorprint.png" alt="" class="w-[40px] max-lg:w-[30px]" />
+            <div class="text-center">Color Print</div>
+          </div>
+          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px] justify-center px-1">
+            <div class="flex-grow"></div>
+            <div class="text-[#7C7C7C] text-[16px] hidden lg:block">
               A0, A1, A2, A3, A4, A5, A6
             </div>
-            <div class="">All Sizes</div>
+            <div class="text-center">All Sizes</div>
           </div>
 
-          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px]">
-            <div class="text-[#7C7C7C] text-md">3000+</div>
-            <div class="">Happy Customers</div>
+          <div class="flex flex-col items-center border-r-2 flex-grow h-[77px] px-1">
+            <div class="flex-grow"></div>
+            <div class="text-[#7C7C7C] text-md text-center">3000+</div>
+            <div class="text-center"><div class="max-lg:hidden"></div>Customers</div>
           </div>
-          <div class="flex flex-col items-center flex-grow h-[77px]">
-            <div class="text-[#7C7C7C] text-md">5+</div>
-            <div class="">Locations</div>
+          <div class="flex flex-col items-center flex-grow h-[77px] px-1">
+            <div class="flex-grow"></div>
+            <div class="text-[#7C7C7C] text-md text-center">5+</div>
+            <div class="text-center">Locations</div>
           </div>
         </div>
+        <!--about us-->
+        <div class="flex flex-wrap justify-center p-3 gap-12 py-16 mt-20 mb-10 mx-10 border-2 rounded-tr-3xl rounded-bl-3xl shadow-inner items-center" id="aboutus" >
+        <img src="images/u1.avif" alt="" class="rounded-3xl w-[25vw] h-[40vw] shadow-lg">
+        <div class="max-w-[450px]"><div class="text-4xl max-lg:text-xl font-bold pb-4">About Us</div>
+      <div class="text-lg font-semibold pb-5">Welcome to our photocopy website! We are a professional printing and copying service provider dedicated to meeting all of your printing needs.
+      </div>
+    <div class="">
+      We offer a wide range of services including black and white or color copying, document scanning, binding, laminating, and more. Whether you need a single document or a large batch of copies, we can provide you with fast and reliable service at an affordable price.
+      
+      Our website is designed to make the printing process as easy and convenient as possible. You can upload your documents directly to our website and select your desired print options. We also offer delivery and pick-up options to make sure your printing needs are met on your schedule.
+      
+      At our photocopy website, we are committed to providing excellent customer service and producing top-quality prints. We look forward to serving you and helping you with all of your printing needs.</div></div>
+      </div>
         <!--CustomerReviews-->
         <div class="w-full">
           <div class="text-4xl font-bold text-center mt-10">
             Customer Reviews
           </div>
           <div
-            class="flex flex-wrap p-10 justify-center gap-5 font-semibold text-md"
+            class="flex flex-wrap p-10 max-lg:p-5 justify-center gap-5 font-semibold text-md"
           >
             <div
-              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg"
+              class="p-8 max-lg:p-4 rounded-md w-[30%] border-2 text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg overflow-x-hidden"
             >
               <div class="mx-auto my-2">
                 <img
@@ -161,7 +177,7 @@
               </div>
             </div>
             <div
-              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg"
+              class="p-8 rounded-md w-[30%] border-2 text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg overflow-x-hidden"
             >
               <div class="mx-auto my-2">
                 <img
@@ -189,7 +205,7 @@
               </div>
             </div>
             <div
-              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg"
+              class="p-8 rounded-md w-[30%] border-2 text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg overflow-x-hidden"
             >
               <div class="mx-auto my-2">
                 <img
@@ -216,7 +232,7 @@
               </div>
             </div>
             <div
-              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg"
+              class="p-8 rounded-md w-[30%] border-2 text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg overflow-x-hidden"
             >
               <div class="mx-auto my-2">
                 <img
@@ -245,7 +261,7 @@
               </div>
             </div>
             <div
-              class="p-8 rounded-md w-[30%] border text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg"
+              class="p-8 rounded-md w-[30%] border-2 text-gray-500 flex flex-col hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg overflow-x-hidden"
             >
               <div class="mx-auto my-2">
                 <img
@@ -274,7 +290,7 @@
               </div>
             </div>
             <div
-              class="p-8 rounded-md w-[30%] border text-gray-500 flex-col flex hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg"
+              class="p-8 rounded-md w-[30%] border-2 text-gray-500 flex-col flex hover:shadow-md hover:scale-[.98] transition-all duration-300 shadow-lg overflow-x-hidden"
             >
               <div class="mx-auto my-2">
                 <img

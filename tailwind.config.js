@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     screens:{
       'lg':'1080px',
-      'max-w-screen-lg':'1080px'
+      'max-lg': {'max': '1080px'},
     },
     extend: {
       fontFamily:{
