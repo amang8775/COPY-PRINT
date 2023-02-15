@@ -15,7 +15,7 @@
 
   <body>
     <div
-      class="w-[100vw] m-0 p-0 h-[100vh] overflow-y-auto overflow-x-hidden bg-bgBlue lg:pt-[50px]"
+      class="w-[100vw] m-0 p-0 h-[100vh] overflow-y-auto overflow-x-hidden bg-bgBlue lg:pt-[50px] scroll-smooth"
     >
       <div
         class="lg:w-[80%] w-full max-w-[1260px] bg-white h-fit mx-auto rounded-xl shadow-black shadow-2xl"
@@ -147,7 +147,7 @@
         </div>
         <!--about us-->
         <div
-          class="flex flex-wrap justify-center p-3 gap-12 py-16 mt-20 mb-10 mx-20 border-2 rounded-tr-3xl rounded-bl-3xl shadow-inner items-center"
+          class="flex max-lg:flex-col justify-center p-10 gap-12 py-16 mt-20 mb-10 mx-20 border-2 rounded-tr-3xl rounded-bl-3xl shadow-inner items-center"
           id="aboutus"
         >
           <img
@@ -360,7 +360,7 @@
         </div>
 
         <!-- contact us  -->
-        <div class="w-full p-10 flex justify-center  items-center gap-10">
+        <div class="w-full p-10 py-20 flex justify-center  items-center gap-10 max-lg:flex-col-reverse">
           <div
             class=" flex flex-col justify-between items-start "
           >
@@ -389,11 +389,11 @@
                     id="email-id"
                   />
                 </div>
-                <div class="flex flex-col" >
+                <div class="flex flex-col " >
                   <!-- <label for="message" class=""> Message </label> -->
                   <textarea
                     id="message"
-                    class="border-2 p-2 rounded-md focus:outline-none focus:border-[#2593D2]  resize-none shadow-lg"
+                    class="border-2 p-2 rounded-md focus:outline-none focus:border-[#2593D2]  resize-none shadow-lg h-28" 
                     placeholder="Let tell us more about your problem"
                   ></textarea>
                 </div>
@@ -414,6 +414,8 @@
            </div>
         </div>
       </div>
+      <!--Footer-->
+      <div class="bg-btnBlue w-full h-[180px] "></div>
     </div>
   </body>
 </html>
