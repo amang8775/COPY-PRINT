@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
     <title>CopyPrint</title>
   </head>
@@ -44,7 +45,7 @@
               <a href="#aboutus">About Us</a>
             </div>
             <div class="hover:text-lightBlue transition-all duration-200">
-              <a href="#">Contact Us</a>
+              <a href="#contactus">Contact Us</a>
             </div>
           </div>
           <div
@@ -359,22 +360,22 @@
         </div>
 
         <!-- contact us  -->
-        <div class="w-full p-10">
+        <div class="w-full p-10 flex justify-center  items-center gap-10">
           <div
-            class="w-[80%] flex flex-col justify-between items-start mx-auto"
+            class=" flex flex-col justify-between items-start "
           >
             <h1 class="text-4xl font-bold">
               Love to hear from you , <br />
               Get in touch
             </h1>
             <div class="flex  mt-10  gap-5 w-[100%] justify-between">
-               <div class="left  flex flex-col  w-[50%] gap-5">
+               <div class="left  flex flex-col  w-full gap-5">
                 <div class="flex flex-col">
                   <!-- <label for="name" class="mb-2"> Your name </label> -->
                   <input
                     type="text"
                     id="name"
-                    class="border p-2 rounded-md focus:outline-none focus:border-[#2593D2]"
+                    class="border-2 p-2 rounded-md focus:outline-none focus:border-[#2593D2] shadow-lg"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -383,7 +384,7 @@
                   <input
                     type="email"
                     id="name"
-                    class="border p-2 rounded-md focus:outline-none focus:border-[#2593D2]"
+                    class="border-2 p-2 rounded-md focus:outline-none focus:border-[#2593D2] shadow-lg"
                     placeholder="Enter your email"
                     id="email-id"
                   />
@@ -392,23 +393,25 @@
                   <!-- <label for="message" class=""> Message </label> -->
                   <textarea
                     id="message"
-                    class="border p-2 rounded-md focus:outline-none focus:border-[#2593D2]  resize-none h-fit"
+                    class="border-2 p-2 rounded-md focus:outline-none focus:border-[#2593D2]  resize-none shadow-lg"
                     placeholder="Let tell us more about your problem"
                   ></textarea>
                 </div>
-                <div>
+                <div id="contactus">
                   <button
-                    class=" text-white max-lg:w-[40vw] px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200 "
+                    class=" text-white max-lg:w-[40vw] px-5 py-2 rounded-md bg-btnBlue hover:scale-105 transition-all duration-200 text-center shadow-lg"
                   >
-                    Contact Us
+                    Contact Us 
+                    <i class="material-icons text-white text-[18px]">send</i>
                   </button>
                 </div>
                </div>
-               <div class="right w-[400px]">
-                <img src="./images/contact.jfif" class="w-[400px] inline-block" alt="">
-               </div>
+               
             </div>
           </div>
+          <div class="w-[360px]">
+            <img src="./images/contactus.png" class="w-full inline-block" alt="">
+           </div>
         </div>
       </div>
     </div>
