@@ -21,7 +21,7 @@ module.exports = {
         lightBlue500: "#0b72e7",
       },
       keyframes: {
-        pencil: {
+        notebook: {
           '0%, 100%': { transform: 'translatex(-5%) translatey(5%)' },
           '50%': { transform: 'translatex(5%) translatey(-5%)' },
         },
@@ -31,7 +31,7 @@ module.exports = {
         }
       },
       animation: {
-        pencil: 'pencil 2s ease-in-out infinite',
+        notebook: 'notebook 3s ease-in-out infinite',
         hero: 'hero 5s ease-in-out infinite',
         spin:'spin 3s ease-in-out infinite alternate'
         }
