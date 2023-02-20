@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
     <title>CopyPrint</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   </head>
 
   <body>
@@ -22,7 +23,7 @@
       >
         <!-- navbar -->
         <nav
-          class="w-full flex justify-between items-center p-[10px] px-[60px] lg:flex-row flex-col sticky lg:-top-[50px] rounded-lg border-b-2 bg-white opacity-90 backdrop-blur-sm z-10 -top-[180px]"
+          class="w-full flex justify-between items-center p-[10px] px-[60px] lg:flex-row flex-col sticky lg:-top-[50px] rounded-lg border-b-2 bg-white opacity-90 backdrop-blur-sm z-50 -top-[180px]"
           id="nav"
         >
           <div
@@ -66,7 +67,7 @@
         <!-- hero section  -->
         <section class="my-10">
           <div
-            class="flex lg:flex-row flex-col-reverse justify-around items-center p-10 px-[60px] max-lg:px-[30px]"
+            class="flex lg:flex-row flex-col-reverse justify-around items-center p-10 px-[60px] max-lg:px-[30px] "
           >
             <div class="left lg:w-[600px] max-lg:w-full">
               <h1
@@ -94,13 +95,16 @@
                 </button>
               </div>
             </div>
-            <div class="right">
+            <div class="right relative">
               <img
-                class="w-[400px] inline-block"
+                class="w-[400px] inline-block z-10 animate-hero"
                 src="./images/herosection.png"
                 alt=""
                 srcset=""
               />
+              <img src="images/pencil.png" alt="" class="animate-spin  w-16 top-10 left-5 absolute z-20">
+              <img src="images/notebook.png" alt="" class="animate-pencil w-16 top-0 right-14 absolute z-0">
+              
             </div>
           </div>
         </section>
